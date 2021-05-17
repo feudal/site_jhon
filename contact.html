@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/other_styles.css">
+  <link rel="stylesheet" href="style/animate.css">
+  <link rel="stylesheet" href="style/media.css">
+  <link rel="stylesheet" href="style/icon_fonts.css">
+</head>
+
+<body>
+</body>
+<!--                         header                         -->
+<header class="header">
+  <ul class="menu">
+    <li><a class="menu__link" href="index.html">Home</a></li>
+    <li><a class="menu__link" href="works.html">Works</a></li>
+    <li><a class="menu__link" href="blog.html">Blog</a></li>
+    <li><a class="menu__link menu__link_active" href="#">Contact</a></li>
+  </ul>
+  <div class="menu-burger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</header>
+<!--                         header                         -->
+<div class="page">
+  <div class="container">
+  	<form class='form' id="contact-form">
+  	<h2 class="section-title">Contact form</h2>
+    <input class='form__input' type="hidden" name="contact_number">
+    <label class='form__label'>Name</label>
+    <input class='form__input' type="text" name="user_name">
+    <label class='form__label' >Email</label>
+    <input class='form__input' type="email" name="user_email">
+    <label class='form__label'>Message</label>
+    <textarea class="form__text" name="message"></textarea>
+    <input class='form__btn btn' type="submit" value="Send">
+  </form>
+  </div>
+</div>
+<!--                         footer                         -->
+<footer class="footer">
+  <ul class="social">
+    <li class="social__link"><a href="#" class="icon-fb"></a></li>
+    <li class="social__link"><a href="#" class="icon-insta"></a></li>
+    <li class="social__link"><a href="#" class="icon-twitter"></a></li>
+    <li class="social__link"><a href="#" class="icon-linkedin"></a></li>
+  </ul>
+  <div class="copy_right">
+    <p>Copyright ©2020 All rights reserved </p>
+  </div>
+</footer>
+<!--                         footer                         -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/send_email.js"></script>
+
+</html>
